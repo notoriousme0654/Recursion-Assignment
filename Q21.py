@@ -1,8 +1,4 @@
 class Solution:
-    """
-    Time:   O(log(n))
-    Memory: O(log(n))
-    """
     def numberOfSteps(self, num: int) -> int:
         if num == 0:
             return 0
